@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BlackJack</title>
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link src="/assets/fuente/pokerstars.com_.jpg">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+</head>
+<body>
+    <nav style="
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,0.9448821765034139) 0%, rgba(0,0,0,1) 12%, rgba(0,0,0,1) 100%);
+    color: white;
+    font-size: 35px;
+    "class="navbar">
+          <img style="border-radius: 38px 24px 33px 0px;" src="assets/fuente/pokerstars.com_.jpg" width="120" height="85" class="d-inline-block align-top" alt="">
+          BlackJack
+    </nav>
+    
+    <section>
+        <div class="col text-center">
+            <button id="nuevo" class="btn btn-danger">Nuevo Juego</button>
+            <button id="pedir" class="btn btn-primary" disabled>Pedir Carta</button>
+            <button id="detener" class="btn btn-primary" disabled>Detener</button>
+        </div>
+    
+        <div class="col">
+            <h1>Jugador 1 - <small>0</small></h1>
+            <div id="jugador-cartas" class="divCartas">
+            <!-- <img class="carta" src="assets/cartas/10C.png"> -->
+            </div>
+        </div>
+
+        <div class="col">
+            <h1>PC - <small>0</small></h1>
+            <div id="pc-cartas" class="divCartas">
+            <!-- <img class="carta" src="assets/cartas/10C.png"> -->
+            </div>
+        </div>
+    </section>
+
+    <script src='assets/js/underscore.min.js'></script>
+    <script src='assets/js/juego.js'></script>
+</body>
+</html>

@@ -1,0 +1,41 @@
+html, section{
+  background-image:
+  radial-gradient(
+    circle at top right,
+    rgb(41, 179, 126),
+    #000000
+  );
+}
+
+.btn{
+    margin-top: 10px;
+}
+
+h1, small{
+  color: white;
+  font-size: 40px;
+}
+
+.carta{
+    width: 130px;
+    position: relative;
+    left: 100px;
+    margin-left: -75px;
+    animation-name: carta;
+    animation-duration: 0.5s;
+}
+
+#pc-cartas, #jugador-cartas{
+    height: 240px;
+}
+
+@keyframes carta {
+  from {
+    margin-left: 100%;
+    width: 130px;
+  }
+  to {
+    margin-left: -75px;
+    width: 130px;
+  }
+}
