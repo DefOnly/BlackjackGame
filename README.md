@@ -1,3 +1,3 @@
 # BlackjackGame
-
-![img](https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/1200px-Unofficial_JavaScript_logo_2.svg.png)
+# Desarrollado en: 
+![img](https://codigoonclick.com/wp-content/uploads/2019/05/practice-javascript-and-learn-functions-400x277.png)
